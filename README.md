@@ -1,6 +1,6 @@
 # Guard::Herbalizer
 
-TODO: Write a gem description
+Guard plugin to convert HAML to ERB using [herbalizer](https://github.com/danchoi/herbalizer)
 
 ## Installation
 
@@ -11,14 +11,10 @@ Add this line to your application's Gemfile:
 And then execute:
 
     $ bundle
+    $ bundle exec guard init
+    
+And edit your `Guardfile`
 
-Or install it yourself as:
-
-    $ gem install guard-herbalizer
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
