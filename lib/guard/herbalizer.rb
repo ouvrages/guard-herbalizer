@@ -13,5 +13,9 @@ module Guard
         end
       end
     end
+    
+    def run_all
+      run_on_changes(Watcher.match_files(self, Dir.glob(File.join('**', '*'))))
+    end
   end
 end
