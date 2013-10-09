@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["contact@ouvrages-web.fr"]
   spec.description   = %q{Guard plugin for herbalizer, to convert HAML to ERB}
   spec.summary       = %q{Converts HAML to ERB using Guard and herbalizer}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/ouvrages/guard-herbalizer"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
