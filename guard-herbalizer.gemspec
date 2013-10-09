@@ -5,10 +5,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 Gem::Specification.new do |spec|
   spec.name          = "guard-herbalizer"
   spec.version       = "0.1.0"
-  spec.authors       = ["Michael Witrant"]
-  spec.email         = ["michael@ouvrages-web.fr"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.authors       = ["Ouvrages"]
+  spec.email         = ["contact@ouvrages-web.fr"]
+  spec.description   = %q{Guard plugin for herbalizer, to convert HAML to ERB}
+  spec.summary       = %q{Converts HAML to ERB using Guard and herbalizer}
   spec.homepage      = ""
   spec.license       = "MIT"
 
