@@ -1,0 +1,4 @@
+# Sample guardfile block for Guard::Herbalizer
+guard :herbalizer do
+  watch(/^.+(\.erb\.haml)$/)
+end
